@@ -30,5 +30,6 @@ Plug('VonHeikemen/lsp-zero.nvim', { branch = 'v3.x'})
 
 Plug 'github/copilot.vim'
 Plug 'wakatime/vim-wakatime'
+Plug 'airblade/vim-gitgutter'
 
 vim.call('plug#end')
