@@ -32,4 +32,9 @@ Plug 'github/copilot.vim'
 Plug 'wakatime/vim-wakatime'
 Plug 'airblade/vim-gitgutter'
 
+Plug 'nvim-tree/nvim-web-devicons'
+Plug 'folke/trouble.nvim'
+
+Plug 'folke/todo-comments.nvim'
+
 vim.call('plug#end')
