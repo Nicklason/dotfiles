@@ -37,4 +37,6 @@ Plug 'folke/trouble.nvim'
 
 Plug 'folke/todo-comments.nvim'
 
+Plug 'sbdchd/neoformat'
+
 vim.call('plug#end')
