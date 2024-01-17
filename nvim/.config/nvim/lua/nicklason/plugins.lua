@@ -39,4 +39,6 @@ Plug 'folke/todo-comments.nvim'
 
 Plug 'sbdchd/neoformat'
 
+Plug 'ThePrimeagen/vim-be-good'
+
 vim.call('plug#end')
