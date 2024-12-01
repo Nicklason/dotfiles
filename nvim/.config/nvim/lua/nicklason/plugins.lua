@@ -7,7 +7,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug('nvim-telescope/telescope.nvim', { tag = '0.1.5' })
 Plug('rose-pine/neovim', { as = 'rose-pine' })
 Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate' })
-Plug('Nicklason/harpoon', { branch = 'harpoon2' })
+Plug('ThePrimeagen/harpoon', { branch = 'harpoon2' })
 Plug 'mbbill/undotree'
 Plug 'tpope/vim-fugitive'
 
