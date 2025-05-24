@@ -1,11 +1,4 @@
-# nvim-config
+# 💤 LazyVim
 
-This is my personal Neovim lua configuration
-
-## Prerequisites
-
-A list of programs is used:
-
-- zig: For compiling treesitter parsers
-- ripgrep: For telescope search
-
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
