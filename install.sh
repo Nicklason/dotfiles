@@ -25,6 +25,8 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ./install-nerd-font-symbols.sh
 
+sudo apt install fzf -y
+
 # Neovim
 curl -LO https://github.com/neovim/neovim/releases/download/v0.11.1/nvim-linux-x86_64.tar.gz
 sudo rm -rf /opt/nvim
