@@ -28,7 +28,8 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 sudo apt install fzf -y
 
 # Neovim
-curl -LO https://github.com/neovim/neovim/releases/download/v0.11.1/nvim-linux-x86_64.tar.gz
+NEOVIM_VERSION="0.11.1"
+curl -LO https://github.com/neovim/neovim/releases/download/v${NEOVIM_VERSION}/nvim-linux-x86_64.tar.gz
 sudo rm -rf /opt/nvim
 sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
 rm ./nvim-linux-x86_64.tar.gz
@@ -37,7 +38,8 @@ export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 git clone https://github.com/Nicklason/nvim-config.git ~/.config/nvim
 
 # nvm/node/npm/pnpm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+NVM_VERSION=0.40.3
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v${NVM_VERSION}/install.sh | bash
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
