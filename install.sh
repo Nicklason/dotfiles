@@ -27,6 +27,15 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 sudo apt install fzf -y
 
+# Lazygit
+LAZYGIT_VERSION="0.51.1"
+curl -LO https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz
+sudo rm -rf /opt/lazygit
+sudo mkdir -p /opt/lazygit
+sudo tar -xzf lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz -C /opt/lazygit
+rm lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz
+export PATH="$PATH:/opt/lazygit"
+
 # Neovim
 NEOVIM_VERSION="0.11.1"
 curl -LO https://github.com/neovim/neovim/releases/download/v${NEOVIM_VERSION}/nvim-linux-x86_64.tar.gz
