@@ -49,7 +49,7 @@ nvm use --lts
 
 curl -fsSL https://get.pnpm.io/install.sh | sh -
 
-pnpm i -g npm-check-updates@18
+pnpm i -g npm-check-updates@18 prettier@3
 
 # dotnet
 curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel 9.0
